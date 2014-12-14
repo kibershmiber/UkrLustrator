@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ua-UK">
+<head>
+<title>Люстратор - інструмент генерації заяв</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+
+
+<!-- jQuery -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="/js/jquery.validate.min.js"></script>
+<script src="/js/jquery.cookie.js"></script>
+<script src="/js/jquery.steps.js"></script>
+
+
+<!-- Завантажуємо меню -->
+<script type="text/javascript">
+	$(function() {
+		$('#main-menu').smartmenus({
+			subMenusSubOffsetX: 1,
+			subMenusSubOffsetY: -8
+		});
+	});
+</script>
+
+
+
+<link href="/css/sm-core-css.css" rel="stylesheet" type="text/css" />
+
+
+<link href="/css/sm-blue/sm-blue.css" rel="stylesheet" type="text/css" />
+<link href="/css/jquery.steps.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+	#main-menu {
+		position:relative;
+		z-index:9999;
+		width:auto;
+	}
+	#main-menu ul {
+		width:12em; 
+	}
+</style>
+
+
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+
+
+</head>
+
+<body>
+
+
+<center><img alt="Люстратор" src="/images/logo.png"></center>
+
+<!-- Menu definition -->
+<ul id="main-menu" class="sm sm-blue"> <li id="menu-item-20"><a title="На головну" href="/"><span id="logo-menu">Головна</span> </a></li>
+
+  <li><a href="about.html">Про проект</a></li>
+  <li><a href="http://zakon4.rada.gov.ua/laws/show/1682-18">Закон "Про очищення влади"</a></li>
+  <li><a href="contacts.html">Контакт з нами</a></li>  
+  <li><a href="http://ukryama.com">УкрЯма</a></li>
+  
+  
+    </ul>
+  </li>
+</ul>
+
+
+
+        
+  <br />
+
+    <form id="example-advanced-form" action="#">
+    <h3>Кого люструємо?</h3>
+    <fieldset>
+    <legend>Інформація про чиновника</legend>
+     
+    <label for="chname">Ім'я чиновника*</label>
+    <input id="chname" name="chname" type="text" class="required"><br/>
+    <label for="chlastname">Прізвище чиновника*</label>
+    <input id="chlastname" name="chlastname" type="text" class="required"><br/>
+    <label for="chfathername">Ну і по-батькові*</label>
+    <input id="chfathername" name="chfathername" type="text" class="required"><br/>
+    <label for="chwork">Місце роботи (напр. Прокуратура Львівської області)*</label>
+    <input id="chwork" name="chwork" type="text" class="required"><br/>
+    <label for="chposition">Посада чиновника (Кому? "Майор<b>у</b>", напр.)*</label>
+    <input id="chposition" name="chposition" type="text" class="required"><br/>
+    <p>(*) Обв'язково для заповнення</p>
+    </fieldset>
+     
+    <h3>Дані відправника</h3>
+    <fieldset>
+    <legend>Заповніть Ваші дані (у нас не зберігаються)</legend>
+     
+    <label for="clname">Ім'я *</label>
+    <input id="clname" name="clname" type="text" class="required">
+    <label for="cllastname">Прізвище *</label>
+    <input id="cllastname" name="cllastname" type="text" class="required">
+    <label for="clemail">Email *</label>
+    <input id="clemail" name="clemail" type="text" class="required email">
+    <label for="claddress">Адреса</label>
+    <input id="claddress" name="claddress" type="text">
+    <label for="clphone">Ваш телефон*</label>
+    <input id="clphone" name="clphone" type="text" class="required number">
+    <p>(*) Обв'язково для заповнення</p>
+    </fieldset>
+     
+    <h3>Формування і друк заяви</h3>
+    <fieldset>
+    <legend>Друк заяви</legend>
+     <p align="right">
+    Генеральному прокурору України</br>
+громадянина Івана Петренко </p></br></br>
+
+
+<center><h2>Заява</h2>
+в порядку закону про звернення громадян</center></br></br>
+<p align="justify">
+З метою реалізації права за звернення, права на доступ до публічної інформації, права на інформацію, права на управляння державними справами, з метою прискорення та спрощення виконання Закону України “Про очищення влади” (ВВР, 2014, №44, ст. 2041) прошу розглянути цю заяву та надати вичерпну відповідь у встановлений законом строк.
+Законом України “Про очищення влади” (ст. 3) встановлено критерії здійснення очищення влади. Ст. 2 цього ж закону встановлено посади, щодо яких здійснюються заходи з очищення влади. Відповідно до п. 2 прикінцквих та перехідних положень Закону, керівник органу, до повноважень яких належить звільнення або ініціювання звільнення в 10-тиденний термін звільняє цих осіб на підставі відомостей, наявних в особових справах цих осіб.
+У зв’язку з викладеним, прошу:</br></br>
+Повідомити мені повне найменування посад, відносно яких Ви маєте право призначення або звільнення (ініціювання цих дій) щодо яких здійснюються заходи з очищення влади.</br>
+Повідомити мені імена та прізвіща осіб, які ці посади займають або претендують на їх зайняття.</br>
+Повідомити мені, яким критеріям ст. 3 Закону “Про очищення влади” відповідає кожна з вказаних осіб відповідно до відомостей, внесених в її особову справу..</br>
+Негайно звільнити осіб, які відповідають принаймні одному критерію та повідомити мені відомості про звільнену особу, дату та підставу звільнення.</br>
+Надати публічну згоду на проведення перевірки на відповідність критеріям, визначених ст. 3 Закону “Про очищення влади”.</br>
+Повідомити мені, яким критеріям ст. 3 Закону “Про очищення влади” відповідаєте особисто ви як посадова особа.</br>
+Надати письмову відповідь та надіслати її на адресу: 04208, м. Київ, вул. ..., буд., кв.</br></br></br>
+</p>
+Дата				підпис					Ім’я Прізвіще
+    
+    
+    </fieldset>
+     
+    
+    </form>
+
+
+				        
+<script type="text/javascript">
+    var form = $("#example-advanced-form").show();
+     
+    form.steps({
+    headerTag: "h3",
+    bodyTag: "fieldset",
+    transitionEffect: "slideLeft",
+    onStepChanging: function (event, currentIndex, newIndex)
+    {
+    // Allways allow previous action even if the current form is not valid!
+    if (currentIndex > newIndex)
+    {
+    return true;
+    }
+    // Forbid next action on "Warning" step if the user is to young
+    if (newIndex === 3 && Number($("#age-2").val()) < 18)
+    {
+    return false;
+    }
+    // Needed in some cases if the user went back (clean up)
+    if (currentIndex < newIndex)
+    {
+    // To remove error styles
+    form.find(".body:eq(" + newIndex + ") label.error").remove();
+    form.find(".body:eq(" + newIndex + ") .error").removeClass("error");
+    }
+    form.validate().settings.ignore = ":disabled,:hidden";
+    return form.valid();
+    },
+    onStepChanged: function (event, currentIndex, priorIndex)
+    {
+    // Used to skip the "Warning" step if the user is old enough.
+    if (currentIndex === 2 && Number($("#age-2").val()) >= 18)
+    {
+    form.steps("next");
+    }
+    // Used to skip the "Warning" step if the user is old enough and wants to the previous step.
+    if (currentIndex === 2 && priorIndex === 3)
+    {
+    form.steps("previous");
+    }
+    },
+    onFinishing: function (event, currentIndex)
+    {
+    form.validate().settings.ignore = ":disabled";
+    return form.valid();
+    },
+    onFinished: function (event, currentIndex)
+    {
+    alert("Submitted!");
+    }
+    }).validate({
+    errorPlacement: function errorPlacement(error, element) { element.before(error); },
+    rules: {
+    confirm: {
+    equalTo: "#password-2"
+    }
+    }
+    });
+
+
+
+                           </script>
+<!-- SmartMenus jQuery plugin -->
+<script type="text/javascript" src="/js/jquery.smartmenus.min.js"></script>
+ 
+</body>
+</html>
