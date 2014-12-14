@@ -45,12 +45,8 @@
 
 
 
-
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
-
-
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 
 
@@ -80,10 +76,10 @@
         
   <br />
 
-    <form id="example-advanced-form" action="#">
+    <form id="example-advanced-form" action="declaration.php" method="get">
     <h3>Кого люструємо?</h3>
     <fieldset>
-    <legend>Інформація про чиновника</legend>
+    <legend>Інформація про чиновника (у давальному відмінку - КОМУ? Миколі Олександровичу)</legend>
      
     <label for="chname">Ім'я чиновника*</label>
     <input id="chname" name="chname" type="text" class="required"><br/>
@@ -100,7 +96,7 @@
      
     <h3>Дані відправника</h3>
     <fieldset>
-    <legend>Заповніть Ваші дані (у нас не зберігаються)</legend>
+    <legend>Заповніть Ваші дані (у іменному відмінку - КОГО? Івана Детермайна)</legend>
      
     <label for="clname">Ім'я *</label>
     <input id="clname" name="clname" type="text" class="required">
@@ -142,8 +138,9 @@
     
     </fieldset>
      
-    
+
     </form>
+
 
 
 				        
@@ -196,7 +193,7 @@
     },
     onFinished: function (event, currentIndex)
     {
-    alert("Submitted!");
+    	document.getElementById("example-advanced-form").submit();
     }
     }).validate({
     errorPlacement: function errorPlacement(error, element) { element.before(error); },
